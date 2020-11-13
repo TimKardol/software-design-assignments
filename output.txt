@@ -1,0 +1,5 @@
+Welkom bij dit script
+Tim
+Gianni
+Uw student nummer is 1234 en uw naam is Tim. 
+Uw student nummer is 1234 en uw naam is Tim. Uw student nummer is 1235 en uw naam is Gianni. 

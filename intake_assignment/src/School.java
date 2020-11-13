@@ -20,7 +20,7 @@ public class School {
         this.students.add(student);
     }
 
-    public String[] getStudentPasses() {
+    public String getStudentPasses() {
         StringBuilder builder = new StringBuilder();
 
         for (Student student: this.students) {
@@ -29,6 +29,6 @@ public class School {
             builder.append(str);
         }
 
-
+        return builder.toString();
     }
 }

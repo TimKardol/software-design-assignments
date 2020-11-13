@@ -8,7 +8,7 @@ public class HzPas {
     }
     @Override
     public String toString (){
-        String message = "Uw student nummer is" + this.student.getStudentNumber() + "en uw naam is" + this.student.getName();
+        String message = "Uw student nummer is " + this.student.getStudentNumber() + " en uw naam is " + this.student.getName() + ". ";
         return message;
     }
 }

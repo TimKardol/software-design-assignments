@@ -1,6 +1,7 @@
+import java.io.FileNotFoundException;
+
 public class DescribeSelf {
-    public static void main (String[] args)
-    {
+    public static void main (String[] args) throws FileNotFoundException {
         Console console = new Console();
 
         console.log("Welkom bij dit script");
@@ -14,6 +15,11 @@ public class DescribeSelf {
             console.log(student.getName());
         }
 
+        School school = new School("HZ");
 
+        school.entrance(students[0]);
+        console.log(school.getStudentPasses());
+        school.entrance(students[1]);
+        console.log(school.getStudentPasses());
     }
 }
